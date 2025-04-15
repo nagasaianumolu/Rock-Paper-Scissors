@@ -1,0 +1,128 @@
+
+body{
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    background-color: beige;    
+    font-family: Cursive;
+}
+
+button:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+button{
+    color: #36395A;
+    font-family: "JetBrains Mono",monospace;
+    position: absolute;
+    top: 40%;
+    left: 47%;
+    width: 90px;
+    height: 40px;
+    font-size: larger;
+    border-radius: 55px;
+    border-width: 1px;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+}
+
+h1{
+    text-decoration: underline;
+    font-size: 35px;
+    padding: 0%;
+    margin: 10px 0px 0px 0px;
+}
+
+h2{
+    text-decoration: underline;
+    font-size: 28px;
+    padding: 0%;
+}
+
+.wrapper{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-basis: 50%;
+}
+
+#left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 290px;
+    gap:20px;
+}
+
+#right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 290px;
+    gap:20px;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.userchoices{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userchoices img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userchoices:hover{
+    background-color: black;
+}
+
+.compchoices{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.compchoices img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.result div{
+    margin: 0px 50px 0px 90px;
+}
+
+.message p{
+    font-size: 24px;
+}

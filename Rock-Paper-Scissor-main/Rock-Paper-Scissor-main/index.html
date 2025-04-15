@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="start">Start</button>
+    <h1>Rock Paper Scissor</h1>
+    <div class="wrapper">
+        <div id="left">
+            <H2>My Choice</H2>
+            <div class="wrap">
+                <div class="userchoices" id="rock">
+                    <img src="assets/rock.png" alt="">
+                </div>
+                <div class="userchoices" id="paper">
+                    <img src="assets/paper.png" alt="">
+                </div>
+                <div class="userchoices" id="scissors">
+                    <img src="assets/scissors.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="right">
+            <h2>Computer Choice</h2>
+            <div class="wrap">
+                <div class="compchoices" id="rock">
+                    <img src="assets/rock.png" alt="">
+                </div>
+                <div class="compchoices" id="paper">
+                    <img src="assets/paper.png" alt="">
+                </div>
+                <div class="compchoices" id="scissors">
+                    <img src="assets/scissors.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="result">
+        <div class="user">
+            <h3>You</h3>
+            <p id="userscore">0</p>
+        </div>
+        <div class="comp">
+            <h3>Computer</h3>
+            <p id="compscore">0</p>
+        </div>
+    </div>
+    <div class="message">
+        <p id="msg">Click on Start to play</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
